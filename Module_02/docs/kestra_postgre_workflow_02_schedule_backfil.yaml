@@ -16,7 +16,14 @@ inputs:
 
 
 variables:
-  # USE THIS FOR BACKFILL TRIGGERS
+  # Note that we use `trigger.date` here, which is the date of the scheduled trigger. 
+  # If you want to use the execution start date instead, you can switch to `execution.startDate`. 
+  # The latter is more suitable for manual runs or backfills, while `trigger.date` 
+  # is ideal for scheduled runs.
+  # They are however useful for different use cases:
+  # Manual runs
+  # Scheduled runs
+  # Backfill runs
   file: "{{inputs.taxi}}_tripdata_{{trigger.date | date('yyyy-MM')}}.csv"
   staging_table: "public.{{inputs.taxi}}_tripdata_staging"
   table: "public.{{inputs.taxi}}_tripdata"
