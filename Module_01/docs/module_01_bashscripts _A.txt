@@ -1,0 +1,317 @@
+  1  ls
+    2  ls
+    3  cd Datatalks_Engineering_ZoomCamp/Module_01/
+    4  source.venv/Scripts/activate
+    5  source.venv/Scripts/activate
+    6  clear
+    7  source .venv/Scripts/activate
+    8  which uv
+    9  python -m uv run pipeline/pipeline.py 1
+   10  jupyter notebook
+   11  docker ps
+   12  docker stop $(docker ps -aq)
+   13  docker run -d \
+   14  docker run -d -e POSTGRES_USER="root" -e POSTRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 postgres:18
+   15  docker ps
+   16  docker rm 2275e79c50c4
+   17  docker stop 2275e79c50c4
+   18  docker rm 2275e79c50c4
+   19  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 postgres:18
+   20  docker ps
+   21  docker logs 361153862a86
+   22  uv run pgclii -h localhost -p 5432 -u root -d ny_taxi
+   23  uv run pgcli -h localhost -p 5432 -u root -d ny_taxi
+   24  jupyter notebook
+   25  uv add tqdm
+   26  uv run pgcli -h localhost -p 5432 -u root -d ny_taxi
+   27  uv run jupyter nbconvert --to=script pipeline/yello_tripdata_2021_01.ipynb
+   28  uv run jupyter nbconvert --to=script pipeline/yellow_tripdata_2021_01.ipynb
+   29  mv yellow_tripdata_2021_01.py ingest_data.py
+   30  mv pipeline/yellow_tripdata_2021_01.py pipeline/ingest_data.py
+   31  touch pipeline/complete_ingest_data.py
+   32  which uv
+   33  ls
+   34  pyproject.toml
+   35  uv add tqdm
+   36  uv add click
+   37  uv run python cmplete_ingest_data.py --pg-user=root --pg-pass=root --pg-host=localhost --pg-port=5432 --pg-db=ny_taxi --target-table=yellow_taxi_trips
+   38  uv run python complete_ingest_data.py --pg-user=root --pg-pass=root --pg-host=localhost --pg-port=5432 --pg-db=ny_taxi --target-table=yellow_taxi_trips
+   39  uv run python pipeline/complete_ingest_data.py --pg-user=root --pg-pass=root --pg-host=localhost --pg-port=5432 --pg-db=ny_taxi --target-table=yellow_taxi_trips
+   40  uv run python pipeline/complete_ingest_data.py --pg_user=root --pg_pass=root --pg_host=localhost --pg_port=5432 --pg_db=ny_taxi --target-table=yellow_taxi_trips
+   41  uv run python pipeline/complete_ingest_data.py --pg_user=root --pg_pass=root --pg_host=localhost --pg_port=5432 --pg_db=ny_taxi --target_table=yellow_taxi_trips
+   42  uv run python pipeline/complete_ingest_data.py --pg_user=root --pg_pass=root --pg_host=localhost --pg_port=5432 --pg_db=ny_taxi --target_table=yellow_taxi_trips
+   
+
+
+
+
+    1  ls
+    2  ls
+    3  cd Datatalks_Engineering_ZoomCamp/Module_01/
+    4  source.venv/Scripts/activate
+    5  source.venv/Scripts/activate
+    6  clear
+    7  source .venv/Scripts/activate
+    8  which uv
+    9  python -m uv run pipeline/pipeline.py 1
+   10  jupyter notebook
+   11  docker ps
+   12  docker stop $(docker ps -aq)
+   13  docker run -d \
+   14  docker run -d -e POSTGRES_USER="root" -e POSTRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 postgres:18
+   15  docker ps
+   16  docker rm 2275e79c50c4
+   17  docker stop 2275e79c50c4
+   18  docker rm 2275e79c50c4
+   19  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 postgres:18
+   20  docker ps
+   21  docker logs 361153862a86
+   22  uv run pgclii -h localhost -p 5432 -u root -d ny_taxi
+   23  uv run pgcli -h localhost -p 5432 -u root -d ny_taxi
+   24  jupyter notebook
+   25  uv add tqdm
+   26  uv run pgcli -h localhost -p 5432 -u root -d ny_taxi
+   27  uv run jupyter nbconvert --to=script pipeline/yello_tripdata_2021_01.ipynb
+   28  uv run jupyter nbconvert --to=script pipeline/yellow_tripdata_2021_01.ipynb
+   29  mv yellow_tripdata_2021_01.py ingest_data.py
+   30  mv pipeline/yellow_tripdata_2021_01.py pipeline/ingest_data.py
+   31  touch pipeline/complete_ingest_data.py
+   32  which uv
+   33  ls
+   34  pyproject.toml
+   35  uv add tqdm
+   36  uv add click
+   37  uv run python cmplete_ingest_data.py --pg-user=root --pg-pass=root --pg-host=localhost --pg-port=5432 --pg-db=ny_taxi --target-table=yellow_taxi_trips
+   38  uv run python complete_ingest_data.py --pg-user=root --pg-pass=root --pg-host=localhost --pg-port=5432 --pg-db=ny_taxi --target-table=yellow_taxi_trips
+   39  uv run python pipeline/complete_ingest_data.py --pg-user=root --pg-pass=root --pg-host=localhost --pg-port=5432 --pg-db=ny_taxi --target-table=yellow_taxi_trips
+   40  uv run python pipeline/complete_ingest_data.py --pg_user=root --pg_pass=root --pg_host=localhost --pg_port=5432 --pg_db=ny_taxi --target-table=yellow_taxi_trips
+   41  uv run python pipeline/complete_ingest_data.py --pg_user=root --pg_pass=root --pg_host=localhost --pg_port=5432 --pg_db=ny_taxi --target_table=yellow_taxi_trips
+   42  uv run python pipeline/complete_ingest_data.py --pg_user=root --pg_pass=root --pg_host=localhost --pg_port=5432 --pg_db=ny_taxi --target_table=yellow_taxi_trips
+   43  istory
+   44  history
+   45  clear
+   46  ls
+   47  cd docker
+   48  cd ..
+   49  docker network create pg-network
+   50  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase
+   51  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase
+   52  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase postgres:18
+   53  clear
+   54  docker ps
+   55  docker network ls
+   56  docker network rm pg-network
+   57  docker network ls
+   58  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase postgres:18
+   59  docker ps
+   60  docker ps -a
+   61  docker stop pgdatabase
+   62  docker rm pgdatabase
+   63  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase postgres:18
+   64  docker network create pg-network
+   65  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase postgres:18
+   66  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase postgres:18
+   67  clear
+   68  docker ps -a
+   69  docker stop pgdatabase
+   70  docker rm pgdatabase
+   71  docker network create pg-network
+   72  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase postgres:18
+   73  clear
+   74  docker ls
+   75  clear
+   76  docker ps -a
+   77  docker stop pgdatabase
+   78  docker rm pgdatabase
+   79  docker ps -a
+   80  docker network rm pg-network
+   81  docker network ls
+   82  docker network create pg-network
+   83  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase postgres:18
+   84  docker run -d -e PGADMIN_DEFAULT_EMAIL="admin@admin.com" -e PGADMIN_DEFAULT_PASSWORD="root" -v pgadmin_data:/var/lib/pgadmin -p 8085:80 --network=pg-network --name pgadmin dpage/pgadmin4
+   85  cd Module_01/docker/
+   86  docker run -d --network=docker_default taxi_ingest:v001 --pg_user=root --pg_pass=root --pg_host=pgdatabase --pg_port=5432 --pg_db=ny_taxi --target_table=yellow_taxi_trips
+   87  docker images
+   88  docker run -it --network=docker_default taxi_ingest:v001 --pg_user=root --pg_pass=root --pg_host=pgdatabase --pg_port=5432 --pg_db=ny_taxi --target_table=yellow_taxi_trips
+   89  cd ..
+   90  docker run -it --network=docker_default taxi_ingest:v001 --pg_user=root --pg_pass=root --pg_host=pgdatabase --pg_port=5432 --pg_db=ny_taxi --target_table=yellow_taxi_trips
+   91  docker ps -a
+   92  ls
+   93  docker run -d --network=docker_default taxi_ingest:v001 --pg_user=root --pg_pass=root --pg_host=pgdatabase --pg_port=5432 --pg_db=ny_taxi --target_table=yellow_taxi_trips
+   94  docker ps -a
+   95  docker run -d --network=docker_default taxi_ingest:v001 --pg_user=root --pg_pass=root --pg_host=pgdatabase --pg_port=5432 --pg_db=ny_taxi --target_table=yellow_taxi_trips
+   96  docker ps -a
+   97  which uv
+   98  source .venv/Scripts/activate
+   99  docker run -d --network=docker_default taxi_ingest:v001 --pg_user=root --pg_pass=root --pg_host=pgdatabase --pg_port=5432 --pg_db=ny_taxi --target_table=yellow_taxi_trips
+  100  docker ps -a
+  101  docker run -d --network=docker_default taxi_ingest:v001 --pg_user=root --pg_pass=root --pg_host=pgdatabase --pg_port=5432 --pg_db=ny_taxi --target_table=yellow_taxi_trips
+  102  docker ps -a
+  103  cd Datatalks_Engineering_ZoomCamp/Module_01/
+  104  which uv
+  105  clear
+  106  source.venv/Scripts/activate
+  107  source .venv/Scripts/activate
+  108  docker ps -a
+  109  docker stop pgdatabase
+  110  docker rm pgdatabase
+  111  docker network ls
+  112  docker network rm pg-network
+  113  docker -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase postgres:18
+  114  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase postgres:18
+  115  docker network ls
+  116  docker create network pg-network
+  117  docker create network pg-network
+  118  docker network create pg-network
+  119  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase postgres:18
+  120  docker stop pgdatabase
+  121  docker rm pgdatabase
+  122  docker network rm pg-network
+  123  docker network create pg-network
+  124  docker run -d -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v ny_taxi_postgres_data:/var/lib/postgresql -p 5432:5432 --network=pg-network --name pgdatabase postgres:18
+  125  docker network inspect pg-network
+  126  clear
+  127  cd docker
+  128  ls
+  129  nano Dockerfile
+  130  docker run -it --network=pg-network taxi_ingest:v001 --pg-user=root --pg-pass=root --pg-host=pgdatabase pg-port=5432 --pg-db=ny_taxi --target-table=yellow_taxi_trips
+  131  docker ps
+  132  docker build -t taxi_ingest:v001 .
+  133  nano Dockerfile
+  134  cd ..
+  135  docker build -f docker/Dockerfile -t taxi_ingest:v001 .
+  136  cd docker/docker-compose.yaml
+  137  ls
+  138  touch docker/docker-compose.yaml
+  139  nano docker/docker-compose.yaml
+  140  docker ps
+  141  docker rm pgadmin
+  142  docker stop pgadmin
+  143  docker rm pgadmin
+  144  docker stop pgdatabase
+  145  docker rm pgdatabase
+  146  cd docker/
+  147  docker compose up
+  148  docker run -it --rm  --network=pipeline_default   taxi_ingest:v001     --pg-user=root     --pg-pass=root     --pg-host=pgdatabase     --pg-port=5432     --pg-db=ny_taxi     --target-table=yellow_taxi_trips
+  149  docker run -it --rm  --network=pipeline_default   taxi_ingest:v001     --pg-user=root     --pg-pass=root     --pg-host=pgdatabase     --pg-port=5432     --pg-db=ny_taxi     --target-table=yellow_taxi_trips
+  150  docker network ls
+  151  docker run -it --rm  --network=docker_default   taxi_ingest:v001     --pg-user=root     --pg-pass=root     --pg-host=pgdatabase     --pg-port=5432     --pg-db=ny_taxi     --target-table=yellow_taxi_trips
+  152  docker images
+  153  docker run -it -d  --network=docker_default   taxi_ingest:v001     --pg_user=root     --pg_pass=root     --pg_host=pgdatabase     --pg_port=5432     --pg_db=ny_taxi     --target_table=yellow_taxi_trips
+  154  docker compose up
+  155  docker ps
+  156  docker ps -a
+  157  docker ps
+  158  docker ps a
+  159  docker ps -a
+  160*
+  161  docker ps -a
+  162  docker network prune
+  163  clear
+  164  ls
+  165  cd docker/
+  166  ls
+  167  docker-compose up -d
+  168  docker ps
+  169  docker exec -it 54e234d79c68 psql -U root -d ny_taxi
+  170  docher network ls
+  171  docker network ls
+  172  docker run --rm   --network docker_default   taxi_ingest:v001   --pg_user=root   --pg_pass=root   --pg_host=pgdatabase   --pg_port=5432   --pg_db=ny_taxi   --target_table=yellow_taxi_trips
+  173  docker ps
+  174  cd ..
+  175  docker run --rm   --network docker_default   taxi_ingest:v001   --pg_user=root   --pg_pass=root   --pg_host=pgdatabase   --pg_port=5432   --pg_db=ny_taxi   --target_table=yellow_taxi_trips
+  176  which python
+  177  source .venv/Scripts/activate
+  178  docker run --rm   --network docker_default   taxi_ingest:v001   --pg_user=root   --pg_pass=root   --pg_host=pgdatabase   --pg_port=5432   --pg_db=ny_taxi   --target_table=yellow_taxi_trips
+  179  docker run --rm   --network docker_default   taxi_ingest:v001   --pg_user=root   --pg_pass=root   --pg_host=pgdatabase   --pg_port=5432   --pg_db=ny_taxi   --target_table=yellow_taxi_trips
+  180  which u
+  181  clear
+  182  which uv
+  183  docker build -f docker/Dockerfile -t taxi_ingest:v001 .
+  184  docker run -d --rm   --network docker_default   taxi_ingest:v001   --pg_user=root   --pg_pass=root   --pg_host=pgdatabase   --pg_port=5432   --pg_db=ny_taxi   --target_table=yellow_taxi_trips
+  185  docker ps
+  186  docker ps -a
+  187  docker ps -a
+  188  docker ps
+  189  git status
+  190  git add .
+  191  git status
+  192  git commit -m "modified Dockerfile,docker-compose.yaml,ingest_data.py that includes cript for loading the lookup table etc"
+  193  git push
+  194  git status
+  195  docker build -f docker/Dockerfile -t taxi_ingest:v001 .
+  196  docker run -d --rm   --network docker_default   taxi_ingest:v001   --pg_user=root   --pg_pass=root   --pg_host=pgdatabase   --pg_port=5432   --pg_db=ny_taxi   --target_table=yellow_taxi_trips
+  197  docker run -d --rm   --network docker_default   taxi_ingest:v001   --pg_user=root   --pg_pass=root   --pg_host=pgdatabase   --pg_port=5432   --pg_db=ny_taxi   --zone_table=taxi_zone_lookup
+  198  history
+
+  190  git status
+  191  git commit -m "modified Dockerfile,docker-compose.yaml,ingest_data.py that includes cript for loading the lookup table etc"
+  192  git push
+  193  git status
+  194  docker build -f docker/Dockerfile -t taxi_ingest:v001 .
+  195  docker run -d --rm   --network docker_default   taxi_ingest:v001   --pg_user=root   --pg_pass=root   --pg_host=pgdatabase   --pg_port=5432   --pg_db=ny_taxi   --target_table=yellow_taxi_trips
+  196  docker run -d --rm   --network docker_default   taxi_ingest:v001   --pg_user=root   --pg_pass=root   --pg_host=pgdatabase   --pg_port=5432   --pg_db=ny_taxi   --zone_table=taxi_zone_lookup
+  197  history
+  198  docker-compose down
+  199  cd docker/
+  200  docker-compose down
+  201  docker container prune
+  202  docker images
+  203  docker rmi taxi_ingest:v001
+  204  docker volume ls
+  205  docker volume prune
+  206  docker network prune
+  207  clear
+  208  ls
+  209  mkdir docker_terrafoam_project
+  210  cd docker_terrafoam_project/
+  211  mkdir data pipeline docker
+  212  ls
+  213  touch docker/Dockerfile docker/docker-compose.yaml pipeline/ingest_data.py
+  214  uv init
+  215  pip install uv
+  216  uv init --python=3.13
+  217  python -m uv init --python=3.13
+  218  where python
+  219  where uv
+  220  uv venv
+  221  python -m ensurepip --upgrade
+  222  uv venv
+  223  python -m uv venv
+  224  source .venv/Scripts/activate
+  225  python -m uv add pandas pyarrow sqlalchemy psycopg2-binary
+  226  uv add pandas pyarrow sqlalchemy psycopg2-binary
+  227  python -m uv add pandas
+  228  uv --version
+  229  python -m uv --version
+  230  where python
+  231  where uv
+  232  pip install pipx
+  233  pipx install uv
+  234  history
+  235  cd docker_terrafoam_project/
+  236  source .venv/Scripts/activate
+  237  where uv
+  238  python -m ensurepip --upgrade
+  239  where uv
+  240  where python -m uv
+  241  python -m add pandas
+  242  python -m uv add pandas
+  243  python -m uv
+  244  python -m site --user-base
+  245  C:\Users\Salome Gabriel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages
+  246  export PATH="$PATH:/C:\Users\Salome Gabriel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages"
+  247  source ~/.bashrc
+  248  export PATH="$PATH:\C:\Users\Salome Gabriel\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages" >> ~/.bashrc
+  249  source ~/.bashrc
+  250  cd docker_terrafoam_project/
+  251  history
+
+This finally worked 
+
+ 264  export PATH="$PATH:/c/Users/Salome Gabriel/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/Scripts" >> ~/.bashrc~
+  265  source ~/.bash_profile
+  266  where uv
+  267  history
+(docker_terrafoam_project)
+
