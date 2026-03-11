@@ -116,7 +116,7 @@ services:
       POSTGRES_PASSWORD: airflow
       POSTGRES_DB: airflow
     volumes:
-      - airflow_db_data:/var/lib/postgresql/data
+      - airflow_db_data:/var/lib/postgresql
     healthcheck:
       test: ['CMD', 'pg_isready', '-U', 'airflow']
       interval: 5s
