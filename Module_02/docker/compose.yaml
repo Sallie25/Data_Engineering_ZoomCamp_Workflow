@@ -60,7 +60,8 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       # - /tmp/kestra-wd:/tmp/kestra-wd
       - D:/kestra-wd:/tmp/kestra-wd
-
+    env_file:
+      - D:\Data_engineering_bootcamps\Datatalks_Engineering_ZoomCamp\Module_02\.env_encoded
     environment:
       KESTRA_CONFIGURATION: |
         datasources:
